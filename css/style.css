@@ -66,16 +66,17 @@ ul { list-style: none; }
   text-decoration: none;
 }
 .btn-primary {
-  background: var(--green);
+  background: var(--white);
   color: var(--navy);
-  box-shadow: var(--shadow-green);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
   font-weight: 700;
+  border: 2px solid var(--white);
 }
 .btn-primary:hover {
-  background: var(--green-dark);
+  background: var(--white);
   color: var(--navy);
   transform: translateY(-2px);
-  box-shadow: 0 0 44px rgba(46,204,113,0.35);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.25);
 }
 .btn-outline {
   background: transparent;
