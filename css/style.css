@@ -67,14 +67,14 @@ ul { list-style: none; }
 }
 .btn-primary {
   background: var(--white);
-  color: var(--navy);
+  color: #0B1A2E;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
   font-weight: 700;
   border: 2px solid var(--white);
 }
 .btn-primary:hover {
   background: var(--white);
-  color: var(--navy);
+  color: #0B1A2E;
   transform: translateY(-2px);
   box-shadow: 0 6px 24px rgba(0,0,0,0.25);
 }
@@ -84,8 +84,8 @@ ul { list-style: none; }
   border: 2px solid var(--green);
 }
 .btn-outline:hover {
-  background: var(--green);
-  color: var(--navy);
+  background: var(--white);
+  color: #0B1A2E;
   transform: translateY(-2px);
 }
 .btn-whatsapp {
@@ -140,7 +140,7 @@ ul { list-style: none; }
 /* ── Divider ── */
 .divider {
   width: 60px; height: 3px;
-  background: var(--green);
+  background: var(--white);
   border-radius: 4px;
   margin: 1rem 0;
 }
@@ -306,7 +306,7 @@ ul { list-style: none; }
 }
 .trust-item .dot {
   width: 8px; height: 8px;
-  background: var(--green);
+  background: var(--white);
   border-radius: 50%;
   flex-shrink: 0;
 }
@@ -375,7 +375,7 @@ ul { list-style: none; }
 }
 .typing-dots span {
   width: 8px; height: 8px;
-  background: var(--green);
+  background: var(--white);
   border-radius: 50%;
   animation: bounce 1.2s infinite ease-in-out;
 }
@@ -833,7 +833,7 @@ footer {
 .timeline-dot {
   position: absolute; left: -1.75rem; top: 5px;
   width: 14px; height: 14px;
-  background: var(--green); border-radius: 50%;
+  background: var(--white); border-radius: 50%;
   border: 2px solid var(--navy);
   box-shadow: 0 0 0 3px rgba(46,204,113,0.25);
 }
